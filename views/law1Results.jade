@@ -1,0 +1,20 @@
+block vars
+	- var title ='Law1-results'
+
+block body
+
+	<a href="/dashboard">Dashboard</a>
+	<a href="/logout">logout</a>
+	
+	p.
+		Average results from all users! 	
+	br
+	<a href="/law1">law1 eg.</a>
+	
+	h2 User Information
+	p First Name: #{user.firstName}
+	p Law Name: #{law.lawName}
+	p AddressLicenceFineYN:	#{law.AddressLicenceFineYN}
+	p AddressLicenceFinePrice: #{law.AddressLicenceFinePrice}
+
+	cONNECT THIS UP LIKE THE dashbaord, something is missing to display information
