@@ -31,4 +31,4 @@ Reduced reliance on polititians.
 Laws that can be updated to reflect the values of the poeple they serve in the current context.
 
 Miunus:
-The reasons for laws may get lost. Maybe mitigate with addtion of metadata and or descriptions
+The reasons for laws may get lost. Maybe mitigate with addition of metadata and or descriptions.
