@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon app"
+    "start": "nodemon app",
+    "test": "mocha"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -13,5 +14,10 @@
     "csurf": "~1.8.3",
     "mongoose": "~4.1.10",
     "client-sessions": "~0.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0"
   }
 }
