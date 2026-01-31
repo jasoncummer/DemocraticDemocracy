@@ -22,8 +22,8 @@ If the law becomes outdated users could petition to have it removed, if it gets 
 
 
 Warning:
-Overly influential people or news networks may temporaly influence the laws. 
-  This might be attenulated by adding different calulations times or voter number thresholds. 
+Overly influential people or news networks may temporarily influence the laws.
+  This might be attenulated by adding different calulations times or voter number thresholds.
 As of 2025 I think we are past this threshold even for "traditional" democracy.
 So new fixes for that need to be implemented.
 
