@@ -18,14 +18,6 @@ pnpm-lock.yaml
 # Production build output
 /dist
 
-# Node modules
-node_modules/
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
 # Logs directory
 logs
 *.log
