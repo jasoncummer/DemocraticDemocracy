@@ -35,3 +35,19 @@ Laws can be updated to reflect the values of the poeple they serve in the curren
 Minus:
 The reasons for laws may get lost. Chesterton's fence. 
 Maybe mitigate with addition of metadata and or descriptions.
+
+## Development Setup
+
+Install the project dependencies with:
+
+```bash
+npm install
+```
+
+Start MongoDB locally (for example, at `mongodb://localhost/auth_test`).
+
+Run the test suite with:
+
+```bash
+npm test
+```
