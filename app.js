@@ -10,7 +10,7 @@ var Schema = mongoose.Schema;
 var ObjectId = Schema.ObjectId;
 
 // Connect to mongo
- mongoose.connect('mongodb://localhost/auth');
+mongoose.connect(process.env.MONGO_URL || 'mongodb://localhost/auth');
 
 var User = mongoose.model('User', new Schema({
 	id: ObjectId,
@@ -198,7 +198,11 @@ app.get('/logout', function(req, res){
 	res.render('index.jade');
 });
 
-app.listen(3000);
+if (require.main === module) {
+    app.listen(3000);
+} else {
+    module.exports = app;
+}
 
 // https://www.youtube.com/watch?v=yvviEA1pOXw
 // https://github.com/rdegges/svcc-auth
