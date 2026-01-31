@@ -40,7 +40,7 @@
 
 	<br><br>
 
-	Car temporaraly confiscated?<br>
+	Car temporarily confiscated?<br>
 	Yes<input type="radio" name="AddressLicenceConfiscatedYN" value="Yes">
 	No<input type="radio" name="AddressLicenceConfiscatedYN" value="No">
 	<br><br>
