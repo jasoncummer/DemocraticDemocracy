@@ -174,7 +174,7 @@ app.post('/law1', function(req, res){
 app.get('/law1Results', requireLogin, function(req, res){	console.log('LR1');
 	Law.findOne({lawName: 'licenceLaw'},function(err, law){
 		console.log('beforeIf');
-		if (!Law){ console.log('!Law');
+                if (!law){ console.log('!Law');
 			res.render('law1Results.jade', {error: 'Invalid Law Name.'});
 		}else{
 			console.log('LAW!');
